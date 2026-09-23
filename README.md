@@ -72,3 +72,7 @@ Store language separately from display script: these three records are Bengali s
 - Local asset references and source archive contents.
 
 Rendered browser QA and supported WebMCP runtime validation were unavailable in the authoring environment. Check final typography and controls on Safari/iOS and Chrome/Android before a public release, especially the smallest supported phones and 200% text zoom.
+
+## Next features
+- Load songs directly from the Excel source rather than a pre-exported JSON. The Excel file can be found at https://publications.rkmm.org/svarakusumanjali. For this, maintain a separate editable copy of the Excel file on Cloud (say Zoho/Google Sheets) and link it to this repository.
+This will enable easier updates and corrections, and allow the addition of new songs without editing the JavaScript source.
